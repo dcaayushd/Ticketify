@@ -1,3 +1,4 @@
+import 'package:flightify/screens/bottom_bar.dart';
 import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
@@ -14,27 +15,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage('Flutter Demo Home Page'),
+      home: const BottomBar(),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage(String s, {super.key});
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  @override
-  Widget build(BuildContext context) {
-   
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Main'),
-      ),
-      body: const Text('Hello World')
-    );
-  }
-}
