@@ -1,5 +1,6 @@
 import 'package:flightify/screens/home_screen.dart';
 import 'package:flightify/screens/search_screen.dart';
+import 'package:flightify/screens/tickets_screen.dart';
 import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +16,7 @@ class _BottomBarState extends State<BottomBar> {
   static final List<Widget> _widgetOptions = <Widget>[
     const HomeScreen(),
     const SearchScreen(),
-    const Text('Tickets'),
+    const TicketsScreen(),
     const Text('Profile'),
   ];
 
