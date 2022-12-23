@@ -3,7 +3,6 @@ import 'package:flightify/utils/app_styles.dart';
 import 'package:flightify/widgets/thick_container.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
-import 'package:dart_date/dart_date.dart';
 
 class TicketView extends StatelessWidget {
   final Map<String, dynamic> ticket;

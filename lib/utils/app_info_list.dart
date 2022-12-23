@@ -1,36 +1,38 @@
 import 'package:dart_date/dart_date.dart';
 
+//  Add stars in double value always and no comma in the reviews as it is an integer
+
 List<Map<String, dynamic>> hotelList = [
   {
     'image': 'one.jpg',
     'place': 'Hotel Barahi',
     'destination': 'Pokhara',
-    'star': '4.5',
-    'reviews': '1,025',
+    'star': 4.5,
+    'reviews': 1025,
     'price': '3,055',
   },
   {
     'image': 'two.jpg',
     'place': 'Hotel Middle Path',
     'destination': 'Pokhara',
-    'star': '5',
-    'reviews': '980',
+    'star': 5.0,
+    'reviews': 980,
     'price': '4,569',
   },
   {
     'image': 'three.jpg',
     'place': 'Sarangkot Lodge',
     'destination': 'Pokhara',
-    'star': '5',
-    'reviews': '132',
+    'star': 4.0,
+    'reviews': 132,
     'price': '4,509',
   },
   {
     'image': 'four.jpg',
     'place': 'Hotel Mala Pokhara',
     'destination': 'Pokhara',
-    'star': '4.5',
-    'reviews': '23',
+    'star': 4.5,
+    'reviews': 23,
     'price': '5,863',
   },
 ];

@@ -31,32 +31,37 @@ class _BottomBarState extends State<BottomBar> {
         child: _widgetOptions[_selectedIndex],
       ),
       bottomNavigationBar: BottomNavigationBar(
-          onTap: _onItemTapped,
-          currentIndex: _selectedIndex,
-          elevation: 10,
-          showSelectedLabels: false,
-          showUnselectedLabels: false,
-          selectedItemColor: Colors.blueGrey,
-          unselectedItemColor: const Color(0XFF526480),
-          type: BottomNavigationBarType.fixed,
-          items: const [
-            BottomNavigationBarItem(
-                icon: Icon(FluentSystemIcons.ic_fluent_home_regular),
-                activeIcon: Icon(FluentSystemIcons.ic_fluent_home_filled),
-                label: 'Home'),
-            BottomNavigationBarItem(
-                icon: Icon(FluentSystemIcons.ic_fluent_search_regular),
-                activeIcon: Icon(FluentSystemIcons.ic_fluent_search_filled),
-                label: 'Search'),
-            BottomNavigationBarItem(
-                icon: Icon(FluentSystemIcons.ic_fluent_ticket_regular),
-                activeIcon: Icon(FluentSystemIcons.ic_fluent_ticket_filled),
-                label: 'Tickets'),
-            BottomNavigationBarItem(
-                icon: Icon(FluentSystemIcons.ic_fluent_person_regular),
-                activeIcon: Icon(FluentSystemIcons.ic_fluent_person_filled),
-                label: 'Profile'),
-          ]),
+        onTap: _onItemTapped,
+        currentIndex: _selectedIndex,
+        elevation: 10,
+        showSelectedLabels: false,
+        showUnselectedLabels: false,
+        selectedItemColor: Colors.blueGrey,
+        unselectedItemColor: const Color(0XFF526480),
+        type: BottomNavigationBarType.fixed,
+        items: const [
+          BottomNavigationBarItem(
+            icon: Icon(FluentSystemIcons.ic_fluent_home_regular),
+            activeIcon: Icon(FluentSystemIcons.ic_fluent_home_filled),
+            label: 'Home',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(FluentSystemIcons.ic_fluent_search_regular),
+            activeIcon: Icon(FluentSystemIcons.ic_fluent_search_filled),
+            label: 'Search',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(FluentSystemIcons.ic_fluent_ticket_regular),
+            activeIcon: Icon(FluentSystemIcons.ic_fluent_ticket_filled),
+            label: 'Tickets',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(FluentSystemIcons.ic_fluent_person_regular),
+            activeIcon: Icon(FluentSystemIcons.ic_fluent_person_filled),
+            label: 'Profile',
+          ),
+        ],
+      ),
     );
   }
 }

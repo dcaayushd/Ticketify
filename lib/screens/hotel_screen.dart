@@ -1,5 +1,6 @@
 import 'package:flightify/utils/app_layout.dart';
 import 'package:flightify/utils/app_styles.dart';
+import 'package:flightify/utils/rating_star.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
@@ -55,21 +56,9 @@ class HotelScreen extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Text(
-                    '${hotel['star']}',
-                    style: Styles.headlineStyle3
-                        .copyWith(color: Styles.greenColor),
-                  ),
-                  const Gap(10),
-                  Icon(
-                    Icons.star,
-                    color: Styles.orangeColor,
-                  ),
-                  const Spacer(),
-                  Text(
-                    '${hotel['reviews']} Reviews',
-                    style: Styles.headlineStyle3
-                        .copyWith(color: Styles.greenColor),
+                  RatingBar(
+                    rating: hotel['star'],
+                    ratingCount: hotel['reviews'],
                   ),
                 ],
               ),
