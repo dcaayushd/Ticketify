@@ -3,6 +3,7 @@ import 'package:flightify/screens/hotel_screen.dart';
 import 'package:flightify/screens/ticket_view.dart';
 import 'package:flightify/utils/app_info_list.dart';
 import 'package:flightify/utils/app_styles.dart';
+import 'package:flightify/widgets/double_text_widgets.dart';
 import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
@@ -73,25 +74,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
                 const Gap(40),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      'Upcoming Flights',
-                      style: Styles.headlineStyle2,
-                    ),
-                    InkWell(
-                      onTap: () {
-                        print('You tapped');
-                      },
-                      child: Text(
-                        'View All',
-                        style: Styles.textStyle
-                            .copyWith(color: Styles.primaryColor),
-                      ),
-                    ),
-                  ],
-                ),
+                const AppDoubleTextWidget(
+                  bigText: 'Upcoming Flights',
+                  smallText: 'View All',
+                )
               ],
             ),
           ),
