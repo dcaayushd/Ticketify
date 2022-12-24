@@ -1,4 +1,5 @@
 import 'package:flightify/screens/home_screen.dart';
+import 'package:flightify/screens/profile_screen.dart';
 import 'package:flightify/screens/search_screen.dart';
 import 'package:flightify/screens/tickets_screen.dart';
 import 'package:fluentui_icons/fluentui_icons.dart';
@@ -17,7 +18,7 @@ class _BottomBarState extends State<BottomBar> {
     const HomeScreen(),
     const SearchScreen(),
     const TicketsScreen(),
-    const Text('Profile'),
+    const ProfileScreen(),
   ];
 
   void _onItemTapped(int index) {

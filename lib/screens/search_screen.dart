@@ -2,6 +2,7 @@ import 'package:flightify/utils/app_layout.dart';
 import 'package:flightify/utils/app_styles.dart';
 import 'package:flightify/widgets/double_text_widgets.dart';
 import 'package:flightify/widgets/icon_text_widgets.dart';
+import 'package:flightify/widgets/overlap_container_widget.dart';
 import 'package:flightify/widgets/tickets_tab_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
@@ -161,20 +162,10 @@ class SearchScreen extends StatelessWidget {
                           ],
                         ),
                       ),
-                      Positioned(
+                      const AppOverlapContainerWidget(
                         right: -45,
                         top: -40,
-                        child: Container(
-                          padding: EdgeInsets.all(AppLayout.getHeight(30)),
-                          decoration: BoxDecoration(
-                            color: Colors.transparent,
-                            shape: BoxShape.circle,
-                            border: Border.all(
-                              width: 18,
-                              color: const Color(0XFF189999),
-                            ),
-                          ),
-                        ),
+                        color: Color(0XFF189999),
                       ),
                     ],
                   ),

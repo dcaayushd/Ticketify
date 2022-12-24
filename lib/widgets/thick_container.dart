@@ -1,11 +1,15 @@
+// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
 
 class ThickContainer extends StatelessWidget {
   final bool? isColor;
+  final bool? iconColor;
+
   const ThickContainer({
-    super.key,
+    Key? key,
     this.isColor,
-  });
+    this.iconColor,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +19,7 @@ class ThickContainer extends StatelessWidget {
         borderRadius: BorderRadius.circular(20),
         border: Border.all(
           width: 2.5,
-          color: isColor == null ? Colors.white : const Color(0XFF8ACCF7),
+          color: isColor == iconColor ? Colors.white : const Color(0XFF8ACCF7),
         ),
       ),
     );

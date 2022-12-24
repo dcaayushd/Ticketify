@@ -5,11 +5,13 @@ import 'package:flightify/utils/app_layout.dart';
 
 class AppLayoutBuilderWidget extends StatelessWidget {
   final bool? isColor;
+  final bool? linesColor;
   final int sections;
   final double width;
   const AppLayoutBuilderWidget({
     Key? key,
     this.isColor,
+    this.linesColor,
     required this.sections,
     this.width = 3,
   }) : super(key: key);
@@ -30,7 +32,7 @@ class AppLayoutBuilderWidget extends StatelessWidget {
               child: DecoratedBox(
                 decoration: BoxDecoration(
                     color:
-                        isColor == null ? Colors.white : Colors.grey.shade300),
+                        isColor == linesColor ? Colors.white : Colors.grey.shade300),
               ),
             ),
           ),

@@ -9,11 +9,13 @@ import 'package:get/get.dart';
 
 class TicketView extends StatelessWidget {
   final Map<String, dynamic> ticket;
+  final bool? iconColor;
   final bool? isColor;
   const TicketView({
     super.key,
     required this.ticket,
     this.isColor,
+    this.iconColor,
   });
 
   @override
@@ -49,7 +51,8 @@ class TicketView extends StatelessWidget {
                                 isColor == null ? Colors.white : Colors.black),
                       ),
                       Expanded(child: Container()),
-                      const ThickContainer(isColor: true),
+                      //For circle near flight logo
+                      ThickContainer(isColor: iconColor),
                       Expanded(
                         child: Stack(
                           children: [
@@ -57,6 +60,7 @@ class TicketView extends StatelessWidget {
                               height: AppLayout.getHeight(24.0),
                               child: const AppLayoutBuilderWidget(
                                 sections: 6,
+                                linesColor: true,
                               ),
                             ),
                             Center(
@@ -72,9 +76,11 @@ class TicketView extends StatelessWidget {
                         ),
                       ),
 
-                      const ThickContainer(isColor: true),
+                      //For circle near flight logo
+                      ThickContainer(isColor: iconColor),
+                      // Expanded or Spacer, anything will works here,
                       Expanded(child: Container()),
-                      // const Spacer(), // Expanded or Spacer, anything will works here
+                      // const Spacer(),
                       Text(
                         ticket['to']['code'],
                         style: Styles.headlineStyle3.copyWith(
@@ -222,7 +228,7 @@ class TicketView extends StatelessWidget {
                         alignment: CrossAxisAlignment.end,
                         isColor: isColor,
                       ),
-                     ],
+                    ],
                   ),
                 ],
               ),
