@@ -1,7 +1,7 @@
-import 'package:flightify/screens/home_screen.dart';
-import 'package:flightify/screens/profile_screen.dart';
-import 'package:flightify/screens/search_screen.dart';
-import 'package:flightify/screens/tickets_screen.dart';
+import 'package:ticketify/screens/home_screen.dart';
+import 'package:ticketify/screens/profile_screen.dart';
+import 'package:ticketify/screens/search_screen.dart';
+import 'package:ticketify/screens/tickets_screen.dart';
 import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:flutter/material.dart';
 

@@ -1,4 +1,4 @@
-package com.aayushcodes.np.flightify
+package com.aayushcodes.np.ticketify
 
 import io.flutter.embedding.android.FlutterActivity
 

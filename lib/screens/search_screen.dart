@@ -1,9 +1,9 @@
-import 'package:flightify/utils/app_layout.dart';
-import 'package:flightify/utils/app_styles.dart';
-import 'package:flightify/widgets/double_text_widgets.dart';
-import 'package:flightify/widgets/icon_text_widgets.dart';
-import 'package:flightify/widgets/overlap_container_widget.dart';
-import 'package:flightify/widgets/tickets_tab_widget.dart';
+import 'package:ticketify/utils/app_layout.dart';
+import 'package:ticketify/utils/app_styles.dart';
+import 'package:ticketify/widgets/double_text_widgets.dart';
+import 'package:ticketify/widgets/icon_text_widgets.dart';
+import 'package:ticketify/widgets/overlap_container_widget.dart';
+import 'package:ticketify/widgets/tickets_tab_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 

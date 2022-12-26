@@ -1,4 +1,4 @@
-import 'package:flightify/utils/app_layout.dart';
+import 'package:ticketify/utils/app_layout.dart';
 import 'package:flutter/material.dart';
 
 class AppTicketsTab extends StatelessWidget {

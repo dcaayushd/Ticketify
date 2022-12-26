@@ -1,9 +1,9 @@
-import 'package:flightify/screens/greet_screen.dart';
-import 'package:flightify/screens/hotel_screen.dart';
-import 'package:flightify/screens/ticket_view.dart';
-import 'package:flightify/utils/app_info_list.dart';
-import 'package:flightify/utils/app_styles.dart';
-import 'package:flightify/widgets/double_text_widgets.dart';
+import 'package:ticketify/screens/greet_screen.dart';
+import 'package:ticketify/screens/hotel_screen.dart';
+import 'package:ticketify/screens/ticket_view.dart';
+import 'package:ticketify/utils/app_info_list.dart';
+import 'package:ticketify/utils/app_styles.dart';
+import 'package:ticketify/widgets/double_text_widgets.dart';
 import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';

@@ -1,7 +1,7 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
 
-import 'package:flightify/utils/app_layout.dart';
+import 'package:ticketify/utils/app_layout.dart';
 
 class AppLayoutBuilderWidget extends StatelessWidget {
   final bool? isColor;
@@ -31,8 +31,9 @@ class AppLayoutBuilderWidget extends StatelessWidget {
               height: AppLayout.getHeight(1.5),
               child: DecoratedBox(
                 decoration: BoxDecoration(
-                    color:
-                        isColor == linesColor ? Colors.white : Colors.grey.shade300),
+                    color: isColor == linesColor
+                        ? Colors.white
+                        : Colors.grey.shade300),
               ),
             ),
           ),

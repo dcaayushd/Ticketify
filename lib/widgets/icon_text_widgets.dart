@@ -1,5 +1,5 @@
-import 'package:flightify/utils/app_layout.dart';
-import 'package:flightify/utils/app_styles.dart';
+import 'package:ticketify/utils/app_layout.dart';
+import 'package:ticketify/utils/app_styles.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
@@ -25,7 +25,7 @@ class AppIconText extends StatelessWidget {
       ),
       child: Row(
         children: [
-          Icon(icon, color: const  Color(0XFFBFC2DF)),
+          Icon(icon, color: const Color(0XFFBFC2DF)),
           Gap(AppLayout.getWidth(10.0)),
           Text(text, style: Styles.textStyle),
         ],

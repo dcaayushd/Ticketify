@@ -2,8 +2,8 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
-import 'package:flightify/utils/app_layout.dart';
-import 'package:flightify/utils/app_styles.dart';
+import 'package:ticketify/utils/app_layout.dart';
+import 'package:ticketify/utils/app_styles.dart';
 
 class AppColumnLayout extends StatelessWidget {
   final CrossAxisAlignment alignment;

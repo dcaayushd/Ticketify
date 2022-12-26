@@ -1,4 +1,4 @@
-# flightify
+# ticketify
 
 A new Flutter project.
 

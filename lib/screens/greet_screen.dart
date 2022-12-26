@@ -1,4 +1,4 @@
-import 'package:flightify/utils/app_styles.dart';
+import 'package:ticketify/utils/app_styles.dart';
 import 'package:flutter/material.dart';
 
 class GreetScreen extends StatefulWidget {

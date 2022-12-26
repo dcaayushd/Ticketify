@@ -1,6 +1,6 @@
 {
-    "name": "flightify",
-    "short_name": "flightify",
+    "name": "ticketify",
+    "short_name": "ticketify",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

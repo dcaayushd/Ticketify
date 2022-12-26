@@ -1,8 +1,8 @@
-import 'package:flightify/utils/app_layout.dart';
-import 'package:flightify/utils/app_styles.dart';
-import 'package:flightify/widgets/column_layout_widget.dart';
-import 'package:flightify/widgets/layout_builder_widget.dart';
-import 'package:flightify/widgets/thick_container.dart';
+import 'package:ticketify/utils/app_layout.dart';
+import 'package:ticketify/utils/app_styles.dart';
+import 'package:ticketify/widgets/column_layout_widget.dart';
+import 'package:ticketify/widgets/layout_builder_widget.dart';
+import 'package:ticketify/widgets/thick_container.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:get/get.dart';

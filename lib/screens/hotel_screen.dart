@@ -1,6 +1,6 @@
-import 'package:flightify/utils/app_layout.dart';
-import 'package:flightify/utils/app_styles.dart';
-import 'package:flightify/utils/rating_star.dart';
+import 'package:ticketify/utils/app_layout.dart';
+import 'package:ticketify/utils/app_styles.dart';
+import 'package:ticketify/utils/rating_star.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
